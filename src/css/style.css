@@ -734,25 +734,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  /* .footer-content {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-logo img {
-    max-width: 140px;
-  }
-
-  .social-icons {
-    gap: 0.6rem;
-    margin-top: 0.25rem;
-  }
-
-  .social-icon {
-    width: 36px;
-    height: 36px;
-    flex-basis: 36px;
-  } */
-
   .footer-logo-section { grid-area: logo; }
   .footer-content > .footer-section:nth-child(2) { grid-area: contact; }
   .footer-content > .footer-section:nth-child(3) { grid-area: community; }
