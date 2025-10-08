@@ -92,12 +92,12 @@ nav {
 }
 
 .hero-text h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: var(--text-light);
   margin-bottom: 1rem;
-  line-height: 1.2;
-  font-family: "Chewy", system-ui;
-  font-weight: 400;
+  line-height: 1;
+  font-family: "alan sans", system-ui;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -981,9 +981,7 @@ footer {
   }
 }
 
-/* 1280px Desktop Media Query */
 @media (min-width: 1280px) {
-  /* Navigation */
   nav {
     padding-inline: 60px;
   }
@@ -1064,10 +1062,6 @@ footer {
   .featured-experience {
     padding: 3rem 4rem;
     /* height: 75vh; */
-  }
-
-  .featured-experience h2 {
-    /* font-size: 3.5rem; */
   }
 
   .featured-experience .subtitle {

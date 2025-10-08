@@ -1,6 +1,7 @@
+import initDestinationCarousel from "./destination-gallery";
+import { getDestinations } from "../destinations/script/destination";
 
-import initDestinationCarousel from './destination-gallery';
-
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   initDestinationCarousel();
+  getDestinations();
 });

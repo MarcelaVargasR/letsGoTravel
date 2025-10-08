@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"      # Cómo Netlify debe construir tu proyecto
+  publish = "dist"               # Carpeta generada por Vite (donde va index.html)
+  functions = "netlify/functions" # Donde están tus funciones serverless
+
+[dev]
+  framework = "vite"             # Para usar Vite junto a Netlify Dev
+  functions = "netlify/functions" # Igual que arriba
