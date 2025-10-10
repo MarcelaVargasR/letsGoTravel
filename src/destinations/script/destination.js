@@ -84,6 +84,8 @@ async function loadAndRender({ q, location, page }) {
   const items = pickItemsFromResponse(data);
   const cards = adaptPlacesToCards(items);
   renderCards(cards);
+
+  console.log("🔥 JSON completo:", data);
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
